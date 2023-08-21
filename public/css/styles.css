@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+:root {
+    --primary: #05446B;
+    --secondary: #0B9DF9;
+    --highlights: #E1A50A;
+    --neutral: #F2EFE8;
+}
+header {
+    background: var(--secondary);
+    padding: 2em;
+    text-align: center;
+    font-family: Barlow;
+    color: var(--neutral);
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbutton {
+    cursor: pointer;
+    display:inline-block;
+    padding: 1em;
+    background-color: var(--secondary);
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 1.2em;
+    margin: 0.5em;
+    width: 10em;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: var(--highlights);
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+.navbutton a:hover {
+    color: var(--neutral);
+}
+
+.inputarea {
+    display:flex;
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#sendbutton {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centeredtext, .centered {
+    text-align: center;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eventitem {
+    border: solid 0.1em;
+    padding: 1em 2em;
+    border-radius: 2em;
+    width: 40%;
+}
+
+a {
+    color: var(--highlights);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.navbar li {
+    color: white;
+}
+
+p {
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: regular;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-container {
+    font-family: Barlow;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.event {
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 5px;
+}
